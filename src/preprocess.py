@@ -7,7 +7,7 @@ from sklearn.preprocessing import OrdinalEncoder, LabelEncoder, StandardScaler
 import warnings
 warnings.filterwarnings('ignore')
 
-dataset = load_dataset("d0r1h/customer_churn")
+dataset = load_dataset("d0r1h/customer_churn")   
 
 def process():
 
