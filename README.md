@@ -59,7 +59,7 @@ Notebook contains the EDA, data processing, and model building ideas.
 ```python
 conda create -n envname python=3.7
 activate envname
-git clone https://github.com/d0r1h/Churn-Analysis.git
+git clone https://github.com/Ranjani1998/Customer-Churn-Prediction.git
 cd Churn-Analysis
 pip install -r requirements.txt
 python app.py
