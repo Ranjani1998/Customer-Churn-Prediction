@@ -2,7 +2,7 @@
 
 Churn prediction, or the task of identifying customers who are likely to discontinue use of a service, is an important and lucrative concern of any industry.
 
-<img src = "https://github.com/d0r1h/Churn-Analysis/blob/main/static/churn_analysis.gif" width = 200>
+<img src = "https://github.com/Ranjani1998/Customer-Churn-Prediction/blob/main/static/churn_analysis.gif" width = 200>
 
 ### Description
 
@@ -18,7 +18,7 @@ This project aims to identify customers who are likely to leave so that we can r
 ### DataSet:
 
 * Dataset has been taken from a Hackathon, and raw dataset can be downloaded from here. [Link](https://www.hackerearth.com/problem/machine-learning/predict-the-churn-risk-rate-11-fb7a760d/)
-* Cleaned and processed version of the data can be accessed from here. [Link](https://github.com/d0r1h/Churn-Analysis/blob/main/DataSet/churnclean.csv)
+* Cleaned and processed version of the data can be accessed from here. [Link](https://github.com/Ranjani1998/Customer-Churn-Prediction/blob/main/Dataset/churnclean.csv)
 * Classes [Customer will EXIT(1) or NOT(0)] are properly balanced with 5:4 ratio
 
 
@@ -28,8 +28,8 @@ Notebook contains the EDA, data processing, and model building ideas.
 
 | Notebook | Colab | Kaggle |
 | ------ | ------ | ------ |
-| Customer Churn Modeling | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/Churn-Analysis/blob/main/notebook/customer-churn.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/undersc0re/customer-churn) |
-| Exploratory data analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/Churn-Analysis/blob/main/notebook/eda-customer-churn.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/undersc0re/eda-customer-churn)
+| Customer Churn Modeling | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ranjani1998/Customer-Churn-Prediction/blob/main/src/customer-churn.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/undersc0re/customer-churn) |
+| Exploratory data analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ranjani1998/Customer-Churn-Prediction/blob/main/src/customer-churn.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/undersc0re/eda-customer-churn)
 
 
 ## Models
@@ -79,12 +79,12 @@ To download dataset and preprocess automatically run following script
 * Ensemble methods (stack classifier) is having 94% of recall for predicting the customers who are likely to leave, higher than Xgboost.
 * Following is confusion matrix of final classifier (stack ensemble) and xgboost classifier.
 
-<img src = "https://github.com/d0r1h/Churn-Analysis/blob/main/static/stackclf.png" width = 300> <img src = "https://github.com/d0r1h/Churn-Analysis/blob/main/static/xgb.png" width = 300>
+<img src = "https://github.com/Ranjani1998/Customer-Churn-Prediction/blob/main/static/stackclf.png" width = 300> <img src = "https://github.com/Ranjani1998/Customer-Churn-Prediction/blob/main/static/xgb.png" width = 300>
 
 * Score table for different classifier
 
 <figure>
-<img src = "https://github.com/d0r1h/Churn-Analysis/blob/main/static/churn_score.png" width = 350>
+<img src = "https://github.com/Ranjani1998/Customer-Churn-Prediction/blob/main/static/churn_score.png" width = 350>
 <figcaption align = "center"></figcaption>
 </figure>
 
@@ -92,6 +92,6 @@ To download dataset and preprocess automatically run following script
 
 ## Inference Demo:
 
-Application is deployed on heroku and can be accessed on https://churn01.herokuapp.com/ and sample data for the test app is [here](https://github.com/d0r1h/Churn-Analysis/blob/main/Examples/example_0.txt)
+Application is deployed on heroku and can be accessed on https://churn01.herokuapp.com/ and sample data for the test app is [here](https://github.com/Ranjani1998/Customer-Churn-Prediction/blob/main/Examples/example_0.txt)
 
 
