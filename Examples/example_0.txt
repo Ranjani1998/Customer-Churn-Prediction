@@ -11,4 +11,4 @@ avg_frequency_login_days = 17
 points_in_wallet = 781.55
 
 
---> output: 0{Customer Will Stay}
+--> output: 0{Customer Will Stay}   
